@@ -28,7 +28,7 @@ public class TrackGeneratorScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		trackDirection = (Directions)Random.Range(0,4);
+		//trackDirection = (Directions)Random.Range(0,4);
 	}
 	
 	// Update is called once per frame
@@ -175,30 +175,30 @@ public class TrackGeneratorScript : MonoBehaviour {
 		switch (trackDirection) {
 		case Directions.North:
 			if (clockWise) {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 0, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 90, 0));
 			} else {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 270, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 0, 0));
 			}
 			break;
 		case Directions.East:
 			if (clockWise) {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 90, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 180, 0));
 			} else {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 0, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 90, 0));
 			}
 			break;
 		case Directions.South:
 			if (clockWise) {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 180, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 270, 0));
 			} else {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 90, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 180, 0));
 			}
 			break;
 		case Directions.West:
 			if (clockWise) {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 270, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 0, 0));
 			} else {
-				newTrackPiece.transform.Rotate (new Vector3 (0, 180, 0));
+				newTrackPiece.transform.Rotate (new Vector3 (0, 270, 0));
 			}
 			break;
 		}
