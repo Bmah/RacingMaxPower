@@ -35,7 +35,7 @@ public class menuScript : MonoBehaviour
 
 	public void StartLevel()
 	{
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene ("RaceScene");
 	}
 
 	public void ExitGame ()
