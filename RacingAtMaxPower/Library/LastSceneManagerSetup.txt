@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Integration.unity
+- path: Assets/ChrisTest.unity
   isLoaded: 1
   isActive: 1
