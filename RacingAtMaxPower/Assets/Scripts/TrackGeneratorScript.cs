@@ -9,6 +9,8 @@ public class TrackGeneratorScript : MonoBehaviour {
 		North, East, South, West
 	};
 
+	public int prelayedTiles = 0;
+
 	public int tileSize = 50;
 
 	public int liveTileCount = 10;
@@ -28,6 +30,9 @@ public class TrackGeneratorScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		for (int i = 0; i < prelayedTiles; i++) {
+			PlaceTile ();
+		}
 		//trackDirection = (Directions)Random.Range(0,4);
 	}
 	
