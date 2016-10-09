@@ -51,7 +51,6 @@ public class TrackGeneratorScript : MonoBehaviour {
 	void PlaceTile(){
 
 		float nextTrackType = Random.value;
-		Debug.Log(((int)this.transform.position.y/10) + 50);
 		if (turnsPerElevation [((int)this.transform.position.y/10) + 50] < 2) {
 			if (nextTrackType < 0.7) {
 				PlaceStraightTile ();
