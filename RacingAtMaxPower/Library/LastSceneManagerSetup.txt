@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CarTesting.unity
+- path: Assets/Track Generation Testing.unity
   isLoaded: 1
   isActive: 1

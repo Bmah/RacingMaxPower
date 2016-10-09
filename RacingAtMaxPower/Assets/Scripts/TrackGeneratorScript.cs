@@ -98,6 +98,9 @@ public class TrackGeneratorScript : MonoBehaviour {
 		//create the new tile at the specified location
 		GameObject newTrackPiece = Instantiate (StraightTilePool [Random.Range (0, StraightTilePool.Length)], trackLocation, Quaternion.identity) as GameObject;
 
+		//fix for blender import bug
+		newTrackPiece.transform.Rotate (new Vector3 (-90, 0, 0));
+
 		trackQueue.Enqueue (newTrackPiece);
 
 		//rotate the tile if it needs to be adjusted
@@ -166,6 +169,9 @@ public class TrackGeneratorScript : MonoBehaviour {
 			
 		//create the new tile at the specified location
 		GameObject newTrackPiece = Instantiate (TurnTilePool [Random.Range (0, TurnTilePool.Length)], trackLocation, Quaternion.identity) as GameObject;
+
+		//fix for blender import bug
+		newTrackPiece.transform.Rotate (new Vector3 (-90, 0, 0));
 
 		trackQueue.Enqueue (newTrackPiece);
 
@@ -241,6 +247,9 @@ public class TrackGeneratorScript : MonoBehaviour {
 		//GameObject RampTile = RampTilePool [Random.Range (0, RampTilePool.Length)];
 		//create the new tile at the specified location
 		GameObject newTrackPiece = Instantiate (RampTilePool [Random.Range (0, RampTilePool.Length)], trackLocation, Quaternion.identity) as GameObject;
+
+		//fix for blender import bug
+		newTrackPiece.transform.Rotate (new Vector3 (-90, 0, 0));
 
 		trackQueue.Enqueue (newTrackPiece);
 

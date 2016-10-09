@@ -19,3 +19,4 @@ C:\Users\Brian\Documents\RacingMaxPower\RacingAtMaxPower\Temp\bin\Debug\UnityEng
 C:\Users\Brian\Documents\RacingMaxPower\RacingAtMaxPower\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\Brian\Documents\RacingMaxPower\RacingAtMaxPower\obj\Debug\Assembly-CSharp.dll
 C:\Users\Brian\Documents\RacingMaxPower\RacingAtMaxPower\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Brian\Documents\RacingMaxPower\RacingAtMaxPower\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
