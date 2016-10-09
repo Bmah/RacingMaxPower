@@ -96,7 +96,7 @@ public class TrackGeneratorScript : MonoBehaviour {
 		}
 		//create the new tile at the specified location
 		GameObject newTrackPiece = Instantiate (StraightTilePool [Random.Range (0, StraightTilePool.Length)], trackLocation, Quaternion.identity) as GameObject;
-
+		newTrackPiece.GetComponent<TrackPieceScript> ().Appear ();
 		trackQueue.Enqueue (newTrackPiece);
 
 		//rotate the tile if it needs to be adjusted
@@ -167,7 +167,7 @@ public class TrackGeneratorScript : MonoBehaviour {
 		GameObject newTrackPiece = Instantiate (TurnTilePool [Random.Range (0, TurnTilePool.Length)], trackLocation, Quaternion.identity) as GameObject;
 
 		trackQueue.Enqueue (newTrackPiece);
-
+		newTrackPiece.GetComponent<TrackPieceScript> ().Appear ();
 		newTrackPiece.GetComponent<TrackPieceScript> ().isTurn = true;
 
 		//rotate the tile if it needs to be adjusted
@@ -240,7 +240,7 @@ public class TrackGeneratorScript : MonoBehaviour {
 		//GameObject RampTile = RampTilePool [Random.Range (0, RampTilePool.Length)];
 		//create the new tile at the specified location
 		GameObject newTrackPiece = Instantiate (RampTilePool [Random.Range (0, RampTilePool.Length)], trackLocation, Quaternion.identity) as GameObject;
-
+		newTrackPiece.GetComponent<TrackPieceScript> ().Appear ();
 		trackQueue.Enqueue (newTrackPiece);
 
 		//rotate the tile if it needs to be adjusted
