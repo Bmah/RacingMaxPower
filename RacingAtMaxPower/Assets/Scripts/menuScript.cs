@@ -8,6 +8,7 @@ public class menuScript : MonoBehaviour
 	public Canvas quitMenu;
 	public Button startText;
 	public Button exitText;
+    public Button CreditText;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,7 @@ public class menuScript : MonoBehaviour
 		quitMenu = quitMenu.GetComponent<Canvas> ();
 		startText = startText.GetComponent<Button> ();
 		exitText = exitText.GetComponent<Button> ();
+        CreditText = CreditText.GetComponent<Button>();
 		quitMenu.enabled = false;
 
 	}
@@ -37,6 +39,11 @@ public class menuScript : MonoBehaviour
 	{
 		SceneManager.LoadScene ("RaceScene");
 	}
+
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("CreditsScene");
+    }
 
 	public void ExitGame ()
 	{
