@@ -1,13 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GoalScript : MonoBehaviour {
 
 	 void OnTriggerEnter(Collider other){
-		Debug.Log ("trigger entered");
-		if (other.tag == "Player") {
-			Debug.Log ("You WIN");
-		}
+		SceneManager.LoadScene("YouWIN");
 
 	}
 }

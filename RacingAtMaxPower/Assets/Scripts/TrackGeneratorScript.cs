@@ -46,7 +46,7 @@ public class TrackGeneratorScript : MonoBehaviour {
 				if (deadTrack.GetComponent<TrackPieceScript> ().isTurn) {
 					turnsPerElevation [((int)deadTrack.transform.position.y / 10)+50]--;	
 				}
-				Destroy (deadTrack);
+				deadTrack.GetComponent<TrackPieceScript> ().Dissapear ();
 			}
 		}
 	}

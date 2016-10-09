@@ -22,6 +22,9 @@ public class TrackPieceScript : MonoBehaviour {
 		} else {
 			startingColor = GetComponent<Renderer> ().material.color;
 			GetComponent<Renderer> ().material.color = new Color (startingColor.r,startingColor.g, startingColor.b, Mathf.MoveTowards(startingColor.a, 0f, transitionSpeed * Time.deltaTime));
+			if (GetComponent<Renderer> ().material.color.a < 0.05f) {
+				Destroy (this.gameObject);
+			}
 		}
 
 		//Debug.Log(Mathf.MoveTowards(startingColor.a, 1f, 0f * Time.deltaTime));
