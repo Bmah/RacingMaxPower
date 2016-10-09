@@ -4,7 +4,8 @@ using System.Collections;
 public class GoalScript : MonoBehaviour {
 
 	 void OnTriggerEnter(Collider other){
-		if (other.name == "Hovercar") {
+		Debug.Log ("trigger entered");
+		if (other.tag == "Player") {
 			Debug.Log ("You WIN");
 		}
 
