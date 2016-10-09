@@ -14,5 +14,9 @@ public class KeyboardControls : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			SceneManager.LoadScene ("TitleScene");
 		}
+
+		if (Input.GetKeyDown (KeyCode.R)) {
+			SceneManager.LoadScene("RaceScene");
+		}
 	}
 }
