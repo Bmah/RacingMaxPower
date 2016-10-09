@@ -1,0 +1,49 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch Integration
+# Your branch is up-to-date with 'origin/Integration'.
+#
+# Changes to be committed:
+#	renamed:    RacingAtMaxPower/Assets/KeyboardControls.cs -> RacingAtMaxPower/Assets/Scripts/KeyboardControls.cs
+#	renamed:    RacingAtMaxPower/Assets/KeyboardControls.cs.meta -> RacingAtMaxPower/Assets/Scripts/KeyboardControls.cs.meta
+#	modified:   RacingAtMaxPower/Library/CurrentMaximizeLayout.dwlt
+#	modified:   RacingAtMaxPower/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+#	modified:   RacingAtMaxPower/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+#	modified:   RacingAtMaxPower/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+#	modified:   RacingAtMaxPower/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+#	modified:   RacingAtMaxPower/Library/ScriptAssemblies/Assembly-CSharp.dll
+#	modified:   RacingAtMaxPower/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+#	modified:   RacingAtMaxPower/Library/assetDatabase3
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000002000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000003000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000004000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000004100000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000005100000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000006000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000006100000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000007000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000007100000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000008000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000008100000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/00000000000000009000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/0000000000000000a000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/0000000000000000a100000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/0000000000000000b000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/00/0000000000000000c000000000000000
+#	modified:   RacingAtMaxPower/Library/metadata/2f/2f5d70fadd92d424990bd184639d472e
+#	modified:   RacingAtMaxPower/Library/metadata/2f/2f5d70fadd92d424990bd184639d472e.info
+#	new file:   RacingAtMaxPower/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+#
+# Untracked files:
+#	RacingAtMaxPower/Temp/UnityLockfile
+#	RacingAtMaxPower/Temp/UnityTempFile-09a73b3208333b14a82116e7f659c9e7
+#	RacingAtMaxPower/Temp/UnityTempFile-287b837cf80b4a34f8dfbfb56ebc8de9
+#	RacingAtMaxPower/Temp/UnityTempFile-52a01c452fe1ad646a93468284e6a18e
+#	RacingAtMaxPower/Temp/UnityTempFile-794587c584602ba4bbe9b0c8cc175eee
+#	RacingAtMaxPower/Temp/UnityTempFile-9093da420ab21434e8689c61edff094d
+#	RacingAtMaxPower/Temp/UnityTempFile-a9a0bb65bd4f89f49849d4c49c3c7fe3
+#	RacingAtMaxPower/Temp/UnityTempFile-fceafb2a92101664cb8a7679ad4f0dac
+#	RacingAtMaxPower/Temp/__Backupscenes/
+#
+
